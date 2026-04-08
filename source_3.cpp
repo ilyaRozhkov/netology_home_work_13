@@ -59,6 +59,6 @@ void main()
         std::cout << std::endl << "Адрес номер " << i+1 << std::endl;
         printAddress(address_arr[i]);
     }
-    
+    delete[] address_arr;
 
 }
